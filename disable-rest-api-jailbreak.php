@@ -75,21 +75,7 @@ function is_whitelisted(): bool
  */
 function is_requirements_meet(): bool
 {
-    return is_wp_47_or_above() && is_whitelist_present() && is_current_rest_route_found();
-}
-
-/**
- * Whether WordPress 4.7 or above installed.
- *
- * @return bool
- */
-function is_wp_47_or_above(): bool
-{
-    return version_compare(
-        get_bloginfo('version'),
-        '4.7',
-        '>='
-    );
+    return is_whitelist_present() && is_current_rest_route_found();
 }
 
 /**
