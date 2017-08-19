@@ -46,7 +46,7 @@ add_filter('rest_authentication_errors', __NAMESPACE__ . '\bypass_dra_if_whiteli
  */
 function bypass_dra_if_whitelisted($access)
 {
-    if (is_requirements_meet() && is_whitelisted()) {
+    if (is_current_rest_route_found() && is_whitelisted()) {
         remove_filter('rest_authentication_errors', 'DRA_only_allow_logged_in_rest_access');
     }
 
@@ -66,26 +66,6 @@ function is_whitelisted(): bool
         get_current_rest_route(),
         get_whitelist()
     );
-}
-
-/**
- * Whether requirements meet.
- *
- * @return bool
- */
-function is_requirements_meet(): bool
-{
-    return is_whitelist_present() && is_current_rest_route_found();
-}
-
-/**
- * Whether the whitelist is non-empty.
- *
- * @return bool
- */
-function is_whitelist_present(): bool
-{
-    return ! empty(get_whitelist());
 }
 
 /**
