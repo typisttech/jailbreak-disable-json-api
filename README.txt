@@ -32,11 +32,11 @@ Note: `/wp/v2/tags/` and `/wp/v2/tags/1234` are different. You have to define bo
 
 = Filters =
 
-* `TypistTech\DRAJailbreak\is_whitelisted`
+* `dra_jailbreak_is_whitelisted`
 
 Example:
 ```
-add_filter( 'TypistTech\DRAJailbreak\is_whitelisted', 'example_callback', 10, 3);
+add_filter( 'dra_jailbreak_is_whitelisted', 'example_callback', 10, 3);
 
 function example_callback(bool $isWhitelisted, string $currentRESTRoute, array $whitelist): bool {
     // Perform your checks and return a boolean
@@ -44,11 +44,11 @@ function example_callback(bool $isWhitelisted, string $currentRESTRoute, array $
 }
 ```
 
-* `TypistTech\DRAJailbreak\whitelist`
+* `dra_jailbreak_whitelist`
 
 Example:
 ```
-add_filter( 'TypistTech\DRAJailbreak\whitelist', 'example_callback');
+add_filter( 'dra_jailbreak_whitelist', 'example_callback');
 
 function example_callback(array $whitelist): array {
      // Modify $whitelist and return string[]

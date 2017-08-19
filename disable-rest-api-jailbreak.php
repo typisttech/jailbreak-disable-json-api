@@ -61,7 +61,7 @@ function bypass_dra_if_whitelisted($access)
 function is_whitelisted(): bool
 {
     return (bool) apply_filters(
-        'is_whitelisted',
+        'dra_jailbreak_is_whitelisted',
         in_array(get_current_rest_route(), get_whitelist(), true),
         get_current_rest_route(),
         get_whitelist()
@@ -96,7 +96,7 @@ function is_whitelist_present(): bool
 function get_whitelist(): array
 {
     return (array) apply_filters(
-        'whitelist',
+        'dra_jailbreak_whitelist',
         defined('DISABLE_REST_API_JAILBREAK_WHITELIST') ? DISABLE_REST_API_JAILBREAK_WHITELIST : []
     );
 }
