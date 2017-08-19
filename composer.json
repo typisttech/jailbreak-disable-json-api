@@ -37,7 +37,7 @@
         "build": "composer archive --format=zip --dir=release --file=disable-rest-api-jailbreak",
         "pre-tag": [
             "composer update --no-suggest",
-            "tocer -g",
+            "doctoc README.md",
             "github_changelog_generator --no-verbose"
         ],
         "check-style": "phpcs --standard=ruleset.xml --colors -p -s",

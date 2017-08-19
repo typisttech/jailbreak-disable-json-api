@@ -15,28 +15,28 @@
 
 Allow whitelisted REST routes to pass through [Disable REST API](https://wordpress.org/plugins/disable-json-api/) filters
 
-<!-- Tocer[start]: Auto-generated, don't remove. -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-## Table of Contents
 
-  - [Installation Instructions](#installation-instructions)
-    - [Install the Nightly Version](#install-the-nightly-version)
-      - [Via WP CLI](#via-wp-cli)
-    - [Install the Developer Version](#install-the-developer-version)
-  - [Build from Source](#build-from-source)
-  - [Support!](#support)
-    - [Donate via PayPal [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.typist.tech/donate/disable-rest-api-jailbreak/)](#donate-via-paypal-donate-via-paypalhttpsimgshieldsiobadgedonate-paypal-bluesvghttpswwwtypisttechdonatedisable-rest-api-jailbreak)
-    - [Why don't you hire me?](#why-dont-you-hire-me)
-    - [Want to help in other way? Want to be a sponsor?](#want-to-help-in-other-way-want-to-be-a-sponsor)
-  - [Code Style](#code-style)
-  - [Feedback](#feedback)
-  - [Change log](#change-log)
-  - [Security](#security)
-  - [Contributing](#contributing)
-  - [Credits](#credits)
-  - [License](#license)
+- [Installation Instructions](#installation-instructions)
+  - [Install the Nightly Version](#install-the-nightly-version)
+    - [Via WP CLI](#via-wp-cli)
+  - [Install the Developer Version](#install-the-developer-version)
+- [Build from Source](#build-from-source)
+- [Support!](#support)
+  - [Donate via PayPal *](#donate-via-paypal-)
+  - [Why don't you hire me?](#why-dont-you-hire-me)
+  - [Want to help in other way? Want to be a sponsor?](#want-to-help-in-other-way-want-to-be-a-sponsor)
+- [Code Style](#code-style)
+- [Feedback](#feedback)
+- [Change log](#change-log)
+- [Security](#security)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [License](#license)
 
-<!-- Tocer[finish]: Auto-generated, don't remove. -->
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 This repository is a development version of [Disable Rest API Jailbreak](https://wordpress.org/plugins/disable-rest-api-jailbreak/) intended to facilitate communication with developers. It is not stable and not intended for installation on production sites.
 
