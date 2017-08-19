@@ -61,7 +61,7 @@ function bypass_dra_if_whitelisted($access)
 function is_whitelisted(): bool
 {
     return (bool) apply_filters(
-        'is_whitelisted',
+        'dra_jailbreak_is_whitelisted',
         in_array(get_current_rest_route(), get_whitelist(), true),
         get_current_rest_route(),
         get_whitelist()
@@ -75,21 +75,7 @@ function is_whitelisted(): bool
  */
 function is_requirements_meet(): bool
 {
-    return is_wp_47_or_above() && is_whitelist_present() && is_current_rest_route_found();
-}
-
-/**
- * Whether WordPress 4.7 or above installed.
- *
- * @return bool
- */
-function is_wp_47_or_above(): bool
-{
-    return version_compare(
-        get_bloginfo('version'),
-        '4.7',
-        '>='
-    );
+    return is_whitelist_present() && is_current_rest_route_found();
 }
 
 /**
@@ -110,9 +96,21 @@ function is_whitelist_present(): bool
 function get_whitelist(): array
 {
     return (array) apply_filters(
-        'whitelist',
-        defined('DISABLE_REST_API_JAILBREAK_WHITELIST') ? DISABLE_REST_API_JAILBREAK_WHITELIST : []
+        'dra_jailbreak_whitelist',
+        get_whitelist_constant()
     );
+}
+
+/**
+ * Whitelist constant getter.
+ *
+ * @return string[]
+ */
+function get_whitelist_constant(): array
+{
+    return defined('DISABLE_REST_API_JAILBREAK_WHITELIST') ?
+        (array) DISABLE_REST_API_JAILBREAK_WHITELIST :
+        [];
 }
 
 /**
