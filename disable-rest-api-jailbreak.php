@@ -97,8 +97,20 @@ function get_whitelist(): array
 {
     return (array) apply_filters(
         'dra_jailbreak_whitelist',
-        defined('DISABLE_REST_API_JAILBREAK_WHITELIST') ? DISABLE_REST_API_JAILBREAK_WHITELIST : []
+        get_whitelist_constant()
     );
+}
+
+/**
+ * Whitelist constant getter.
+ *
+ * @return string[]
+ */
+function get_whitelist_constant(): array
+{
+    return defined('DISABLE_REST_API_JAILBREAK_WHITELIST') ?
+        (array) DISABLE_REST_API_JAILBREAK_WHITELIST :
+        [];
 }
 
 /**
