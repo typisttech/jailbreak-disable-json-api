@@ -1,0 +1,70 @@
+{
+    "name": "typisttech/disable-rest-api-jailbreak",
+    "description": "Allow whitelisted REST routes to pass through [Disable REST API](https://wordpress.org/plugins/disable-json-api/) filters",
+    "keywords": [
+        "wordpress",
+        "wp"
+    ],
+    "homepage": "https://github.com/TypistTech/disable-rest-api-jailbreak",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Typist Tech",
+            "email": "disable-rest-api-jailbreak@typist.tech",
+            "homepage": "https://www.typist.tech/"
+        },
+        {
+            "name": "Tang Rufus",
+            "email": "tangrufus@gmail.com",
+            "homepage": "https://www.typist.tech/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "disable-rest-api-jailbreak@typist.tech",
+        "issues": "https://github.com/TypistTech/disable-rest-api-jailbreak/issues",
+        "forum": "https://wordpress.org/support/plugin/disable-rest-api-jailbreak",
+        "source": "https://github.com/TypistTech/disable-rest-api-jailbreak"
+    },
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "neronmoon/scriptsdev": "^0.1.1",
+        "wp-coding-standards/wpcs": "^0.13.0"
+    },
+    "scripts": {
+        "build": "composer archive --format=zip --dir=release --file=disable-rest-api-jailbreak",
+        "pre-tag": [
+            "composer update --no-suggest",
+            "tocer -g",
+            "github_changelog_generator --no-verbose"
+        ],
+        "check-style": "phpcs --standard=ruleset.xml --colors -p -s",
+        "fix-style": "phpcbf --standard=ruleset.xml -p --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1",
+        "install-dev-extra": [
+            "phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "scripts-dev": {
+            "post-install-cmd": "@install-dev-extra",
+            "post-update-cmd": "@install-dev-extra"
+        }
+    },
+    "archive": {
+        "exclude": [
+            "/*",
+            ".*",
+            "!/languages",
+            "!/lib",
+            "!/src",
+            "!/LICENSE",
+            "!/README.txt",
+            "!/*.php"
+        ]
+    }
+}

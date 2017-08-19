@@ -1,0 +1,76 @@
+language: php
+
+dist: trusty
+
+sudo: false
+
+branches:
+  only:
+    - master
+    - /^(?:(\d+)\.)?(?:(\d+)\.)?(\*|\d+)$/
+
+cache:
+  apt: true
+  yarn: true
+  directories:
+    - $HOME/.composer/cache/files
+
+notifications:
+  email:
+    on_success: never
+    on_failure: change
+
+php:
+  - 7.0
+  - 7.1
+  - nightly
+
+matrix:
+  allow_failures:
+    - php: nightly
+  fast_finish: true
+
+before_install:
+  # Disable xDebug to speed up the build unless on php nightly
+  - if [[ $(phpenv version-name) != "nightly" ]]; then phpenv config-rm xdebug.ini; fi
+
+install:
+  - travis_retry composer install --prefer-dist --no-suggest --no-interaction
+
+script:
+  - composer check-style
+
+before_deploy:
+  - unzip -qo release/disable-rest-api-jailbreak.zip -d build
+
+deploy:
+  - provider: releases
+    api_key: $GITHUB_ACCESS_TOKEN
+    file: release/disable-rest-api-jailbreak.zip
+    skip_cleanup: true
+    on:
+      php: 7.0
+      tags: true
+      repo: TypistTech/disable-rest-api-jailbreak
+  - provider: wordpress-plugin
+    edge:
+      source: TypistTech/dpl
+      branch: add-wordpress-plugin-deployment
+    slug: disable-rest-api-jailbreak
+    username: tangrufus
+    build_dir: build
+    skip_cleanup: true
+    on:
+      php: 7.1
+      tags: true
+      repo: TypistTech/disable-rest-api-jailbreak
+  - provider: pages
+    skip_cleanup: true
+    github_token: $GITHUB_ACCESS_TOKEN
+    local_dir: build
+    target_branch: nightly
+    project_name: "Disable REST API Jailbreak"
+    on:
+      branch: master
+      php: 7.0
+      repo: TypistTech/disable-rest-api-jailbreak
