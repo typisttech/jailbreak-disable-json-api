@@ -2,7 +2,7 @@
 
 Contributions are **welcome** and will be fully **credited**.
 
-We accept contributions via Pull Requests on [Github](https://github.com/TypistTech/disable-rest-api-jailbreak).
+We accept contributions via Pull Requests on [Github](https://github.com/TypistTech/jailbreak-disable-json-api).
 
 
 ## Pull Requests

@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 
 <!--
-  ~ Disable REST API Jailbreak
+  ~ Jailbreak Disable REST API
   ~
-  ~ Allow whitelisted REST routes to pass through Disable REST API filters
+  ~ Allow whitelisted REST routes to pass through Disable REST API filters.
   ~
-  ~ @package   TypistTech\DRAJailbreak
+  ~ @package TypistTech\JailbreakDRA
   ~
-  ~ @author    Typist Tech <disable-rest-api-jailbreak@typist.tech@typist.tech>
+  ~ @author Typist Tech <jailbreak-disable-json-api@typist.tech@typist.tech>
   ~ @copyright 2017 Typist Tech
-  ~ @license   GPL-2.0+
+  ~ @license GPL-2.0+
   ~
-  ~ @see       https://www.typist.tech/projects/disable-rest-api-jailbreak
-  ~ @see       https://wordpress.org/plugins/disable-rest-api-jailbreak
+  ~ @see https://www.typist.tech/projects/jailbreak-disable-json-api
+  ~ @see https://wordpress.org/plugins/jailbreak-disable-json-api
   -->
 
 <ruleset name="PSR 2 and WordPress Coding Standards for Plugins">
@@ -33,7 +33,7 @@
     <rule ref="PSR2"/>
 
     <rule ref="PSR1.Files.SideEffects.FoundWithSymbols">
-        <exclude-pattern>/disable-rest-api-jailbreak.php</exclude-pattern>
+        <exclude-pattern>/jailbreak-disable-json-api.php</exclude-pattern>
     </rule>
 
     <rule ref="WordPress">
@@ -78,7 +78,7 @@
 
     <rule ref="WordPress.WP.I18n">
         <properties>
-            <property name="text_domain" type="array" value="disable-rest-api-jailbreak"/>
+            <property name="text_domain" type="array" value="jailbreak-disable-json-api"/>
         </properties>
     </rule>
 

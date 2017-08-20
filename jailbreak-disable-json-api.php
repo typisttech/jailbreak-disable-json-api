@@ -1,22 +1,22 @@
 <?php
 /**
- * Disable REST API Jailbreak
+ * Jailbreak Disable REST API
  *
- * Allow whitelisted REST routes to pass through Disable REST API filters
+ * Allow whitelisted REST routes to pass through Disable REST API filters.
  *
- * @package   TypistTech\DRAJailbreak
+ * @package   TypistTech\JailbreakDRA
  *
- * @author    Typist Tech <disable-rest-api-jailbreak@typist.tech@typist.tech>
+ * @author    Typist Tech <jailbreak-disable-json-api@typist.tech@typist.tech>
  * @copyright 2017 Typist Tech
  * @license   GPL-2.0+
  *
- * @see       https://www.typist.tech/projects/disable-rest-api-jailbreak
- * @see       https://wordpress.org/plugins/disable-rest-api-jailbreak
+ * @see       https://www.typist.tech/projects/jailbreak-disable-json-api
+ * @see       https://wordpress.org/plugins/jailbreak-disable-json-api
  */
 
 /**
- * Plugin Name:     Disable REST API Jailbreak
- * Plugin URI:      https://www.typist.tech/projects/disable-rest-api-jailbreak
+ * Plugin Name:     Jailbreak Disable REST API
+ * Plugin URI:      https://www.typist.tech/projects/jailbreak-disable-json-api
  * Description:     Allow whitelisted REST routes to pass through Disable REST API filters
  * Version:         0.1.0
  * Author:          Typist Tech
@@ -27,7 +27,7 @@
 
 declare(strict_types=1);
 
-namespace TypistTech\DRAJailbreak;
+namespace TypistTech\JailbreakDRA;
 
 // If this file is called directly, abort.
 if (! defined('WPINC')) {
@@ -61,7 +61,7 @@ function bypass_dra_if_whitelisted($access)
 function is_whitelisted(): bool
 {
     return (bool) apply_filters(
-        'dra_jailbreak_is_whitelisted',
+        'jailbreak_dra_is_whitelisted',
         is_pattern_matched(get_whitelist(), get_current_rest_route()),
         get_current_rest_route(),
         get_whitelist()
@@ -91,7 +91,7 @@ function is_pattern_matched(array $patterns, string $subject): bool
 function get_whitelist(): array
 {
     return (array) apply_filters(
-        'dra_jailbreak_whitelist',
+        'jailbreak_dra_whitelist',
         get_whitelist_constant()
     );
 }
@@ -103,8 +103,8 @@ function get_whitelist(): array
  */
 function get_whitelist_constant(): array
 {
-    return defined('DISABLE_REST_API_JAILBREAK_WHITELIST') ?
-        (array) DISABLE_REST_API_JAILBREAK_WHITELIST :
+    return defined('JAILBREAK_DRA_WHITELIST') ?
+        (array) JAILBREAK_DRA_WHITELIST :
         [];
 }
 

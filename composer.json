@@ -1,16 +1,16 @@
 {
-    "name": "typisttech/disable-rest-api-jailbreak",
+    "name": "typisttech/jailbreak-disable-json-api",
     "description": "Allow whitelisted REST routes to pass through [Disable REST API](https://wordpress.org/plugins/disable-json-api/) filters",
     "keywords": [
         "wordpress",
         "wp"
     ],
-    "homepage": "https://github.com/TypistTech/disable-rest-api-jailbreak",
+    "homepage": "https://www.typist.tech/projects/jailbreak-disable-json-api",
     "license": "GPL-2.0+",
     "authors": [
         {
             "name": "Typist Tech",
-            "email": "disable-rest-api-jailbreak@typist.tech",
+            "email": "jailbreak-disable-json-api@typist.tech",
             "homepage": "https://www.typist.tech/"
         },
         {
@@ -21,10 +21,10 @@
         }
     ],
     "support": {
-        "email": "disable-rest-api-jailbreak@typist.tech",
-        "issues": "https://github.com/TypistTech/disable-rest-api-jailbreak/issues",
-        "forum": "https://wordpress.org/support/plugin/disable-rest-api-jailbreak",
-        "source": "https://github.com/TypistTech/disable-rest-api-jailbreak"
+        "email": "jailbreak-disable-json-api@typist.tech",
+        "issues": "https://github.com/TypistTech/jailbreak-disable-json-api/issues",
+        "forum": "https://wordpress.org/support/plugin/jailbreak-disable-json-api",
+        "source": "https://github.com/TypistTech/jailbreak-disable-json-api"
     },
     "require": {
         "php": "^7.0"
@@ -34,7 +34,7 @@
         "wp-coding-standards/wpcs": "^0.13.0"
     },
     "scripts": {
-        "build": "composer archive --format=zip --dir=release --file=disable-rest-api-jailbreak",
+        "build": "composer archive --format=zip --dir=release --file=jailbreak-disable-json-api",
         "pre-tag": [
             "composer update --no-suggest",
             "doctoc README.md",
