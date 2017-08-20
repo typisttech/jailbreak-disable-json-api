@@ -42,36 +42,36 @@ script:
 
 before_deploy:
   - composer build
-  - unzip -qo release/disable-rest-api-jailbreak.zip -d build
+  - unzip -qo release/jailbreak-disable-json-api.zip -d build
 
 deploy:
   - provider: releases
     api_key: $GITHUB_ACCESS_TOKEN
-    file: release/disable-rest-api-jailbreak.zip
+    file: release/jailbreak-disable-json-api.zip
     skip_cleanup: true
     on:
       php: 7.0
       tags: true
-      repo: TypistTech/disable-rest-api-jailbreak
+      repo: TypistTech/jailbreak-disable-json-api
   - provider: wordpress-plugin
     edge:
       source: TypistTech/dpl
       branch: add-wordpress-plugin-deployment
-    slug: disable-rest-api-jailbreak
+    slug: jailbreak-disable-json-api
     username: tangrufus
     build_dir: build
     skip_cleanup: true
     on:
       php: 7.1
       tags: true
-      repo: TypistTech/disable-rest-api-jailbreak
+      repo: TypistTech/jailbreak-disable-json-api
   - provider: pages
     skip_cleanup: true
     github_token: $GITHUB_ACCESS_TOKEN
     local_dir: build
     target_branch: nightly
-    project_name: "Disable REST API Jailbreak"
+    project_name: "Jailbreak Disable REST API"
     on:
       branch: master
       php: 7.0
-      repo: TypistTech/disable-rest-api-jailbreak
+      repo: TypistTech/jailbreak-disable-json-api

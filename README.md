@@ -1,16 +1,16 @@
-# Disable REST API Jailbreak
+# Jailbreak Disable REST API
 
-[![WordPress plugin](https://img.shields.io/wordpress/plugin/v/disable-rest-api-jailbreak.svg)](https://wordpress.org/plugins/disable-rest-api-jailbreak/)
-[![WordPress](https://img.shields.io/wordpress/plugin/dt/disable-rest-api-jailbreak.svg)](https://wordpress.org/plugins/disable-rest-api-jailbreak/)
-[![WordPress rating](https://img.shields.io/wordpress/plugin/r/disable-rest-api-jailbreak.svg)](https://wordpress.org/plugins/disable-rest-api-jailbreak/)
-[![WordPress](https://img.shields.io/wordpress/v/disable-rest-api-jailbreak.svg)](https://wordpress.org/plugins/disable-rest-api-jailbreak/)
-[![Build Status](https://travis-ci.org/TypistTech/disable-rest-api-jailbreak.svg?branch=master)](https://travis-ci.org/TypistTech/disable-rest-api-jailbreak)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/TypistTech/disable-rest-api-jailbreak/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/TypistTech/disable-rest-api-jailbreak/?branch=master)
-[![PHP Versions Tested](http://php-eye.com/badge/typisttech/disable-rest-api-jailbreak/tested.svg)](https://travis-ci.org/TypistTech/disable-rest-api-jailbreak)
+[![WordPress plugin](https://img.shields.io/wordpress/plugin/v/jailbreak-disable-json-api.svg)](https://wordpress.org/plugins/jailbreak-disable-json-api/)
+[![WordPress](https://img.shields.io/wordpress/plugin/dt/jailbreak-disable-json-api.svg)](https://wordpress.org/plugins/jailbreak-disable-json-api/)
+[![WordPress rating](https://img.shields.io/wordpress/plugin/r/jailbreak-disable-json-api.svg)](https://wordpress.org/plugins/jailbreak-disable-json-api/)
+[![WordPress](https://img.shields.io/wordpress/v/jailbreak-disable-json-api.svg)](https://wordpress.org/plugins/jailbreak-disable-json-api/)
+[![Build Status](https://travis-ci.org/TypistTech/jailbreak-disable-json-api.svg?branch=master)](https://travis-ci.org/TypistTech/jailbreak-disable-json-api)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/TypistTech/jailbreak-disable-json-api/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/TypistTech/jailbreak-disable-json-api/?branch=master)
+[![PHP Versions Tested](http://php-eye.com/badge/typisttech/jailbreak-disable-json-api/tested.svg)](https://travis-ci.org/TypistTech/jailbreak-disable-json-api)
 [![StyleCI](https://styleci.io/repos/21576423/shield?branch=master)](https://styleci.io/repos/21576423)
-[![Dependency Status](https://gemnasium.com/badges/github.com/TypistTech/disable-rest-api-jailbreak.svg)](https://gemnasium.com/github.com/TypistTech/disable-rest-api-jailbreak)
-[![License](https://poser.pugx.org/typisttech/disable-rest-api-jailbreak/license)](https://packagist.org/packages/typisttech/disable-rest-api-jailbreak)
-[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.typist.tech/donate/disable-rest-api-jailbreak/)
+[![Dependency Status](https://gemnasium.com/badges/github.com/TypistTech/jailbreak-disable-json-api.svg)](https://gemnasium.com/github.com/TypistTech/jailbreak-disable-json-api)
+[![License](https://poser.pugx.org/typisttech/jailbreak-disable-json-api/license)](https://packagist.org/packages/typisttech/jailbreak-disable-json-api)
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.typist.tech/donate/jailbreak-disable-json-api/)
 [![Hire Typist Tech](https://img.shields.io/badge/Hire-Typist%20Tech-ff69b4.svg)](https://www.typist.tech/contact/)
 
 Allow whitelisted REST routes to pass through [Disable REST API](https://wordpress.org/plugins/disable-json-api/) filters
@@ -38,15 +38,15 @@ Allow whitelisted REST routes to pass through [Disable REST API](https://wordpre
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-This repository is a development version of [Disable Rest API Jailbreak](https://wordpress.org/plugins/disable-rest-api-jailbreak/) intended to facilitate communication with developers. It is not stable and not intended for installation on production sites.
+This repository is a development version of [Jailbreak Disable REST API](https://wordpress.org/plugins/jailbreak-disable-json-api/) intended to facilitate communication with developers. It is not stable and not intended for installation on production sites.
 
 Bug reports and pull requests are welcome.
 
-If you are not a developer or you'd like to receive the stable release version and automatic updates, install it via [WordPress.org](https://wordpress.org/plugins/disable-rest-api-jailbreak/) instead.
+If you are not a developer or you'd like to receive the stable release version and automatic updates, install it via [WordPress.org](https://wordpress.org/plugins/jailbreak-disable-json-api/) instead.
 
 ## Installation Instructions
 
-If you are not a developer or you'd like to receive the stable release version and automatic updates, install it via [WordPress.org](https://wordpress.org/plugins/disable-rest-api-jailbreak/) instead.
+If you are not a developer or you'd like to receive the stable release version and automatic updates, install it via [WordPress.org](https://wordpress.org/plugins/jailbreak-disable-json-api/) instead.
 
 ### Install the Nightly Version
 
@@ -55,7 +55,7 @@ The `nightly` branch is built by TravisCI whenever the `master` branch is update
 #### Via WP CLI
 
 ```bash
-$ wp plugin install https://github.com/TypistTech/disable-rest-api-jailbreak/archive/nightly.zip --activate
+$ wp plugin install https://github.com/TypistTech/jailbreak-disable-json-api/archive/nightly.zip --activate
 ```
 
 ### Install the Developer Version
@@ -63,14 +63,14 @@ $ wp plugin install https://github.com/TypistTech/disable-rest-api-jailbreak/arc
 To setup a developer workable version you should run these commands:
 
 ```bash
-$ composer create-project --keep-vcs --no-install typisttech/disable-rest-api-jailbreak:dev-master
-$ cd disable-rest-api-jailbreak
+$ composer create-project --keep-vcs --no-install typisttech/jailbreak-disable-json-api:dev-master
+$ cd jailbreak-disable-json-api
 $ composer install
 ```
 
 ## Build from Source
 
-This command build the plugin into `release/disable-rest-api-jailbreak.zip`.
+This command build the plugin into `release/jailbreak-disable-json-api.zip`.
 
 ```bash
 $ composer build
@@ -78,9 +78,9 @@ $ composer build
 
 ## Support!
 
-### Donate via PayPal [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.typist.tech/donate/disable-rest-api-jailbreak/)
+### Donate via PayPal [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.typist.tech/donate/jailbreak-disable-json-api/)
 
-Love disable-rest-api-jailbreak? Help me maintain Disable REST API Jailbreak, a [donation here](https://www.typist.tech/donate/disable-rest-api-jailbreak/) can help with it.
+Love jailbreak-disable-json-api? Help me maintain Jailbreak Disable REST API, a [donation here](https://www.typist.tech/donate/jailbreak-disable-json-api/) can help with it.
 
 ### Why don't you hire me?
 
@@ -99,7 +99,7 @@ Check the code style with ``$ composer check-style`` and fix it with ``$ compose
 ## Feedback
 
 **Please provide feedback!** We want to make this library useful in as many projects as possible.
-Please submit an [issue](https://github.com/TypistTech/disable-rest-api-jailbreak/issues/new) and point out what you do and don't like, or fork the project and make suggestions.
+Please submit an [issue](https://github.com/TypistTech/jailbreak-disable-json-api/issues/new) and point out what you do and don't like, or fork the project and make suggestions.
 **No issue is too small.**
 
 ## Change log
@@ -108,7 +108,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Security
 
-If you discover any security related issues, please email disable-rest-api-jailbreak@typist.tech instead of using the issue tracker.
+If you discover any security related issues, please email jailbreak-disable-json-api@typist.tech instead of using the issue tracker.
 
 ## Contributing
 
@@ -116,13 +116,13 @@ Please see [CONTRIBUTING](.github/CONTRIBUTING.md) and [CONDUCT](.github/CONDUCT
 
 ## Credits
 
-[Disable Rest API Jailbreak](https://github.com/TypistTech/disable-rest-api-jailbreak) is a [Typist Tech](https://www.typist.tech) project and maintained by [Tang Rufus](https://twitter.com/Tangrufus), freelance developer for [hire](https://www.typist.tech/contact/).
+[Jailbreak Disable REST API](https://github.com/TypistTech/jailbreak-disable-json-api) is a [Typist Tech](https://www.typist.tech) project and maintained by [Tang Rufus](https://twitter.com/Tangrufus), freelance developer for [hire](https://www.typist.tech/contact/).
 
 Special thanks to [Dave McHale](http://www.binarytemplar.com/) whose [Disable REST API](https://wordpress.org/plugins/disable-json-api/) plugin make this project possible.
 
-Full list of contributors can be found [here](https://github.com/TypistTech/disable-rest-api-jailbreak/graphs/contributors).
+Full list of contributors can be found [here](https://github.com/TypistTech/jailbreak-disable-json-api/graphs/contributors).
 
 ## License
 
-[Disable REST API Jailbreak](https://github.com/TypistTech/disable-rest-api-jailbreak) is licensed under the GPLv2 (or later) from the [Free Software Foundation](http://www.fsf.org/).
+[Jailbreak Disable REST API](https://github.com/TypistTech/jailbreak-disable-json-api) is licensed under the GPLv2 (or later) from the [Free Software Foundation](http://www.fsf.org/).
 Please see [License File](LICENSE) for more information.

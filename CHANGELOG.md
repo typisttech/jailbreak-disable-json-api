@@ -1,10 +1,10 @@
 # Change Log
 
-## [0.1.0](https://github.com/typisttech/disable-rest-api-jailbreak/tree/0.1.0) (2017-08-20)
+## [0.1.0](https://github.com/typisttech/jailbreak-disable-json-api/tree/0.1.0) (2017-08-20)
 **Merged pull requests:**
 
-- Perform checking even if whitelist is empty [\#2](https://github.com/TypistTech/disable-rest-api-jailbreak/pull/2) ([TangRufus](https://github.com/TangRufus))
-- Prefix filter names; Don't check WP version; Extract `get\_whitelist\_constant` [\#1](https://github.com/TypistTech/disable-rest-api-jailbreak/pull/1) ([TangRufus](https://github.com/TangRufus))
+- Perform checking even if whitelist is empty [\#2](https://github.com/TypistTech/jailbreak-disable-json-api/pull/2) ([TangRufus](https://github.com/TangRufus))
+- Prefix filter names; Don't check WP version; Extract `get\_whitelist\_constant` [\#1](https://github.com/TypistTech/jailbreak-disable-json-api/pull/1) ([TangRufus](https://github.com/TangRufus))
 
 
 
