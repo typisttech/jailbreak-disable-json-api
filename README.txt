@@ -21,14 +21,13 @@ Define 'DISABLE_REST_API_JAILBREAK_WHITELIST' constant in `wp-config.php`
 ```
 define('DISABLE_REST_API_JAILBREAK_WHITELIST', [
     '/wp/v2/posts',
+    '/wp/v2/posts/1234',
     '/wp/v2/tags',
-    '/wp/v2/tags/1234',
+    '/wp/v2/tags/(?P<id>[\\d]+)',
 ]);
 
 /* That's all, stop editing! Happy blogging. */
 ```
-
-Note: `/wp/v2/tags/` and `/wp/v2/tags/1234` are different. You have to define both or use filters.
 
 = Filters =
 
