@@ -62,10 +62,25 @@ function is_whitelisted(): bool
 {
     return (bool) apply_filters(
         'dra_jailbreak_is_whitelisted',
-        in_array(get_current_rest_route(), get_whitelist(), true),
+        is_pattern_matched(get_whitelist(), get_current_rest_route()),
         get_current_rest_route(),
         get_whitelist()
     );
+}
+
+/**
+ * Perform regular expression matches.
+ *
+ * @param string[] $patterns The patterns to search for.
+ * @param string   $subject  The input string.
+ *
+ * @return bool TRUE if any of the patterns matched.
+ */
+function is_pattern_matched(array $patterns, string $subject): bool
+{
+    return array_reduce($patterns, function (bool $isMatched, string $pattern) use ($subject) {
+        return $isMatched || preg_match('@^' . $pattern . '$@i', $subject);
+    }, false);
 }
 
 /**
