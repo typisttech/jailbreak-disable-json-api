@@ -118,7 +118,7 @@ Please see [CONTRIBUTING](.github/CONTRIBUTING.md) and [CONDUCT](.github/CONDUCT
 
 [Disable Rest API Jailbreak](https://github.com/TypistTech/disable-rest-api-jailbreak) is a [Typist Tech](https://www.typist.tech) project and maintained by [Tang Rufus](https://twitter.com/Tangrufus), freelance developer for [hire](https://www.typist.tech/contact/).
 
-Special thanks to [Dave McHale](http://www.binarytemplar.com/) whose [Disable REST API](https://wordpress.org/plugins/disable-json-api/) plugin make this project possible and [CALLISTO AB](http://callisto.net) who sponsored the initial development phase.
+Special thanks to [Dave McHale](http://www.binarytemplar.com/) whose [Disable REST API](https://wordpress.org/plugins/disable-json-api/) plugin make this project possible.
 
 Full list of contributors can be found [here](https://github.com/TypistTech/disable-rest-api-jailbreak/graphs/contributors).
 
