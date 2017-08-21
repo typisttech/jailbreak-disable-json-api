@@ -4,7 +4,7 @@ Donate link: https://www.typist.tech/donate/jailbreak-disable-json-api/
 Tags: disable-json-api, admin, JSON, api, rest, rest-api
 Requires at least: 4.7
 Tested up to: 4.8
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -176,6 +176,11 @@ Shoot me an email at [info@typist.tech](mailto:info@typist.tech) or use this [co
 == Changelog ==
 
 Full change log available at [GitHub](https://github.com/TypistTech/jailbreak-disable-json-api/blob/master/CHANGELOG.md)
+
+= 0.1.1 =
+
+* Readme: Add note about upcoming DRA whitlisting feature
+* Readme: Fix markdown
 
 = 0.1.0 =
 
