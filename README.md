@@ -112,7 +112,7 @@ If you discover any security related issues, please email jailbreak-disable-json
 
 ## Contributing
 
-Please see [CONTRIBUTING](.github/CONTRIBUTING.md) and [CONDUCT](.github/CONDUCT.md) for details.
+Please see [CONTRIBUTING](.github/CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.
 
 ## Credits
 
