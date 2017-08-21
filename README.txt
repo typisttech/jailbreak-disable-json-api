@@ -55,13 +55,16 @@ function example_callback(array $whitelist): array {
 }
 `
 
-= Things You Need to Know =
+= Do I need this plugin? =
 
-* You need PHP `7.0` or later
-* You need WordPress `4.7` or later
-* You need [Disable REST API](https://wordpress.org/plugins/disable-json-api/) `1.3` or later
-* This plugin was not built by '[Dave McHale](http://www.binarytemplar.com/), Disable REST API's author
+* [Disable REST API](https://wordpress.org/plugins/disable-json-api/) have planned to add whitelisting support which makes this plugin unnecessary. See [Dave McHale's comment](https://wordpress.org/support/topic/restrict-plug-in-use-of-rest-api/#post-9425207)
 * If you have a legitimate need of the REST API, don't use  not need `Disable REST API` at all. See [Dave McHale's comment](https://wordpress.org/support/topic/restrict-plug-in-use-of-rest-api/#post-9367800)
+
+= Requirements =
+
+* PHP `7.0` or later
+* WordPress `4.7` or later
+* [Disable REST API](https://wordpress.org/plugins/disable-json-api/) `1.3` or later
 
 > If you like the plugin, feel free to [rate it](https://wordpress.org/support/plugin/jailbreak-disable-json-api/reviews/#new-post) or [donate via PayPal](https://www.typist.tech/donate/jailbreak-disable-json-api/). Thanks a lot! :)
 
