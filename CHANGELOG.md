@@ -1,8 +1,16 @@
 # Change Log
 
+## [0.1.1](https://github.com/TypistTech/jailbreak-disable-json-api/tree/0.1.1) (2017-08-22)
+[Full Changelog](https://github.com/TypistTech/jailbreak-disable-json-api/compare/0.1.0...0.1.1)
+
+**Merged pull requests:**
+
+- Readme: Fix markdown; Add note about upcoming DRA whitlisting feature [\#8](https://github.com/TypistTech/jailbreak-disable-json-api/pull/8) ([TangRufus](https://github.com/TangRufus))
+
 ## [0.1.0](https://github.com/TypistTech/jailbreak-disable-json-api/tree/0.1.0) (2017-08-21)
 **Merged pull requests:**
 
+- Version bump 0.1.0 [\#7](https://github.com/TypistTech/jailbreak-disable-json-api/pull/7) ([TangRufus](https://github.com/TangRufus))
 - Rename repo: disable-rest-api-jailbreak --\> jailbreak-disable-json-api [\#6](https://github.com/TypistTech/jailbreak-disable-json-api/pull/6) ([TangRufus](https://github.com/TangRufus))
 - Add regex whitelist support [\#5](https://github.com/TypistTech/jailbreak-disable-json-api/pull/5) ([TangRufus](https://github.com/TangRufus))
 - Remove credit [\#4](https://github.com/TypistTech/jailbreak-disable-json-api/pull/4) ([TangRufus](https://github.com/TangRufus))

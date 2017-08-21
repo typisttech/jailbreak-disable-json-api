@@ -18,7 +18,7 @@
  * Plugin Name:     Jailbreak Disable REST API
  * Plugin URI:      https://www.typist.tech/projects/jailbreak-disable-json-api
  * Description:     Allow whitelisted REST routes to pass through Disable REST API filters
- * Version:         0.1.0
+ * Version:         0.1.1
  * Author:          Typist Tech
  * Author URI:      https://www.typist.tech/
  * License:         GPL-2.0+
