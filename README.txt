@@ -18,7 +18,7 @@ Allow whitelisted REST routes to pass through [Disable REST API](https://wordpre
 
 Define 'JAILBREAK_DRA_WHITELIST' constant in `wp-config.php`
 
-```
+`
 define('JAILBREAK_DRA_WHITELIST', [
     '/wp/v2/posts',
     '/wp/v2/posts/1234',
@@ -27,33 +27,33 @@ define('JAILBREAK_DRA_WHITELIST', [
 ]);
 
 /* That's all, stop editing! Happy blogging. */
-```
+`
 
 = Filters =
 
 * `jailbreak_dra_is_whitelisted`
 
 Example:
-```
+`
 add_filter( 'jailbreak_dra_is_whitelisted', 'example_callback', 10, 3);
 
 function example_callback(bool $isWhitelisted, string $currentRESTRoute, array $whitelist): bool {
     // Perform your checks and return a boolean
     return $isWhitelisted;
 }
-```
+`
 
 * `jailbreak_dra_whitelist`
 
 Example:
-```
+`
 add_filter( 'jailbreak_dra_whitelist', 'example_callback');
 
 function example_callback(array $whitelist): array {
      // Modify $whitelist and return string[]
     return $whitelist;
 }
-```
+`
 
 = Things You Need to Know =
 
@@ -140,7 +140,7 @@ You probably running on a old version of PHP. Upgrade your server to PHP `7.0` o
 Depends. I accept this kind of custom coding jobs. However, I'll reject if the requirement doesn't make sense.
 Shoot me an email at [info@typist.tech](mailto:info@typist.tech) or use this [contact form](https://www.typist.tech/contact/).
 
-= Is this plugin written by [Dave McHale](http://www.binarytemplar.com/), Disable REST API's author? =
+= Is this plugin written by Dave McHale, Disable REST API's author? =
 
 No.
 This plugin is a [Typist Tech](https://www.typist.tech) project.
