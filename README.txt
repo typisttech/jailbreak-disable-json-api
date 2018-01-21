@@ -1,18 +1,21 @@
 === Jailbreak Disable REST API ===
 Contributors: typisttech, tangrufus
-Donate link: https://www.typist.tech/donate/jailbreak-disable-json-api/
+Donate link: https://typist.tech/donation/
 Tags: disable-json-api, admin, JSON, api, rest, rest-api
 Requires at least: 4.7
-Tested up to: 4.8
+Tested up to: 4.9
 Stable tag: 0.1.1
-License: GPLv2 or later
+License: GPL-2.0-or-later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Allow whitelisted REST routes to pass through [Disable REST API](https://wordpress.org/plugins/disable-json-api/) filters
+[Deprecated] Allow whitelisted REST routes to pass through [Disable REST API](https://wordpress.org/plugins/disable-json-api/) filters
 
 == Description ==
 
-Allow whitelisted REST routes to pass through [Disable REST API](https://wordpress.org/plugins/disable-json-api/) filters
+[Deprecated] Allow whitelisted REST routes to pass through [Disable REST API](https://wordpress.org/plugins/disable-json-api/) filters
+
+> [Disable REST API](https://wordpress.org/plugins/disable-json-api/) now supports whitelisting of individual routes since version 1.4.
+> This plugin is no longer maintained.
 
 = Define REST route whitelist =
 

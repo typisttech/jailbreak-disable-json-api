@@ -1,4 +1,4 @@
-# Jailbreak Disable REST API
+# [Deprecated] Jailbreak Disable REST API
 
 [![WordPress plugin](https://img.shields.io/wordpress/plugin/v/jailbreak-disable-json-api.svg)](https://wordpress.org/plugins/jailbreak-disable-json-api/)
 [![WordPress](https://img.shields.io/wordpress/plugin/dt/jailbreak-disable-json-api.svg)](https://wordpress.org/plugins/jailbreak-disable-json-api/)
@@ -10,10 +10,13 @@
 [![StyleCI](https://styleci.io/repos/21576423/shield?branch=master)](https://styleci.io/repos/21576423)
 [![Dependency Status](https://gemnasium.com/badges/github.com/TypistTech/jailbreak-disable-json-api.svg)](https://gemnasium.com/github.com/TypistTech/jailbreak-disable-json-api)
 [![License](https://poser.pugx.org/typisttech/jailbreak-disable-json-api/license)](https://packagist.org/packages/typisttech/jailbreak-disable-json-api)
-[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.typist.tech/donate/jailbreak-disable-json-api/)
-[![Hire Typist Tech](https://img.shields.io/badge/Hire-Typist%20Tech-ff69b4.svg)](https://www.typist.tech/contact/)
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://typist.tech/donate/jailbreak-disable-json-api/)
+[![Hire Typist Tech](https://img.shields.io/badge/Hire-Typist%20Tech-ff69b4.svg)](https://typist.tech/contact/)
 
 Allow whitelisted REST routes to pass through [Disable REST API](https://wordpress.org/plugins/disable-json-api/) filters
+
+> [Disable REST API](https://wordpress.org/plugins/disable-json-api/) now supports whitelisting of individual routes since version 1.4.
+> This plugin is no longer maintained.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -78,13 +81,13 @@ $ composer build
 
 ## Support!
 
-### Donate via PayPal [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.typist.tech/donate/jailbreak-disable-json-api/)
+### Donate via PayPal [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://typist.tech/donate/jailbreak-disable-json-api/)
 
-Love jailbreak-disable-json-api? Help me maintain Jailbreak Disable REST API, a [donation here](https://www.typist.tech/donate/jailbreak-disable-json-api/) can help with it.
+Love jailbreak-disable-json-api? Help me maintain Jailbreak Disable REST API, a [donation here](https://typist.tech/donation/) can help with it.
 
 ### Why don't you hire me?
 
-Ready to take freelance WordPress jobs. Contact me via the contact form [here](https://www.typist.tech/contact/) or, via email [info@typist.tech](mailto:info@typist.tech)
+Ready to take freelance WordPress jobs. Contact me via the contact form [here](https://typist.tech/contact/) or, via email [info@typist.tech](mailto:info@typist.tech)
 
 ### Want to help in other way? Want to be a sponsor?
 
@@ -116,7 +119,7 @@ Please see [CONTRIBUTING](.github/CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF
 
 ## Credits
 
-[Jailbreak Disable REST API](https://github.com/TypistTech/jailbreak-disable-json-api) is a [Typist Tech](https://www.typist.tech) project and maintained by [Tang Rufus](https://twitter.com/Tangrufus), freelance developer for [hire](https://www.typist.tech/contact/).
+[Jailbreak Disable REST API](https://github.com/TypistTech/jailbreak-disable-json-api) is a [Typist Tech](https://typist.tech) project and maintained by [Tang Rufus](https://twitter.com/Tangrufus), freelance developer for [hire](https://typist.tech/contact/).
 
 Special thanks to [Dave McHale](http://www.binarytemplar.com/) whose [Disable REST API](https://wordpress.org/plugins/disable-json-api/) plugin make this project possible.
 
