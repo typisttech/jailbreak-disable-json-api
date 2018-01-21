@@ -1,10 +1,20 @@
 # Change Log
 
-## [0.1.1](https://github.com/TypistTech/jailbreak-disable-json-api/tree/0.1.1) (2017-08-22)
+## [0.1.2](https://github.com/TypistTech/jailbreak-disable-json-api/tree/0.1.2) (2018-01-21)
+[Full Changelog](https://github.com/TypistTech/jailbreak-disable-json-api/compare/0.1.1...0.1.2)
+
+**Merged pull requests:**
+
+- Sunsetting this plugin, bye [\#12](https://github.com/TypistTech/jailbreak-disable-json-api/pull/12) ([TangRufus](https://github.com/TangRufus))
+- Rename: .github/CODE\_OF\_CONDUCT.md -\> CODE\_OF\_CONDUCT.md [\#11](https://github.com/TypistTech/jailbreak-disable-json-api/pull/11) ([TangRufus](https://github.com/TangRufus))
+- Rename: CONDUCT.md --\> CODE\_OF\_CONDUCT.md [\#10](https://github.com/TypistTech/jailbreak-disable-json-api/pull/10) ([TangRufus](https://github.com/TangRufus))
+
+## [0.1.1](https://github.com/TypistTech/jailbreak-disable-json-api/tree/0.1.1) (2017-08-21)
 [Full Changelog](https://github.com/TypistTech/jailbreak-disable-json-api/compare/0.1.0...0.1.1)
 
 **Merged pull requests:**
 
+- Version bump 0.1.1 [\#9](https://github.com/TypistTech/jailbreak-disable-json-api/pull/9) ([TangRufus](https://github.com/TangRufus))
 - Readme: Fix markdown; Add note about upcoming DRA whitlisting feature [\#8](https://github.com/TypistTech/jailbreak-disable-json-api/pull/8) ([TangRufus](https://github.com/TangRufus))
 
 ## [0.1.0](https://github.com/TypistTech/jailbreak-disable-json-api/tree/0.1.0) (2017-08-21)
