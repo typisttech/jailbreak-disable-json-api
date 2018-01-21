@@ -1,10 +1,18 @@
 # Change Log
 
+## [0.1.3](https://github.com/TypistTech/jailbreak-disable-json-api/tree/0.1.3) (2018-01-21)
+[Full Changelog](https://github.com/TypistTech/jailbreak-disable-json-api/compare/0.1.2...0.1.3)
+
+**Merged pull requests:**
+
+- Bump stable tag to 0.1.3 [\#14](https://github.com/TypistTech/jailbreak-disable-json-api/pull/14) ([TangRufus](https://github.com/TangRufus))
+
 ## [0.1.2](https://github.com/TypistTech/jailbreak-disable-json-api/tree/0.1.2) (2018-01-21)
 [Full Changelog](https://github.com/TypistTech/jailbreak-disable-json-api/compare/0.1.1...0.1.2)
 
 **Merged pull requests:**
 
+- Version bump 0.1.2 [\#13](https://github.com/TypistTech/jailbreak-disable-json-api/pull/13) ([TangRufus](https://github.com/TangRufus))
 - Sunsetting this plugin, bye [\#12](https://github.com/TypistTech/jailbreak-disable-json-api/pull/12) ([TangRufus](https://github.com/TangRufus))
 - Rename: .github/CODE\_OF\_CONDUCT.md -\> CODE\_OF\_CONDUCT.md [\#11](https://github.com/TypistTech/jailbreak-disable-json-api/pull/11) ([TangRufus](https://github.com/TangRufus))
 - Rename: CONDUCT.md --\> CODE\_OF\_CONDUCT.md [\#10](https://github.com/TypistTech/jailbreak-disable-json-api/pull/10) ([TangRufus](https://github.com/TangRufus))
