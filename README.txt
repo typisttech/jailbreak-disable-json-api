@@ -180,6 +180,10 @@ Shoot me an email at [info@typist.tech](mailto:info@typist.tech) or use this [co
 
 Full change log available at [GitHub](https://github.com/TypistTech/jailbreak-disable-json-api/blob/master/CHANGELOG.md)
 
+= 0.1.2 =
+
+* Readme: Add deprecated notice
+
 = 0.1.1 =
 
 * Readme: Add note about upcoming DRA whitlisting feature
