@@ -4,7 +4,7 @@ Donate link: https://typist.tech/donation/
 Tags: disable-json-api, admin, JSON, api, rest, rest-api
 Requires at least: 4.7
 Tested up to: 4.9
-Stable tag: 0.1.1
+Stable tag: 0.1.3
 License: GPL-2.0-or-later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -179,6 +179,10 @@ Shoot me an email at [info@typist.tech](mailto:info@typist.tech) or use this [co
 == Changelog ==
 
 Full change log available at [GitHub](https://github.com/TypistTech/jailbreak-disable-json-api/blob/master/CHANGELOG.md)
+
+= 0.1.3 =
+
+* Fix deployment
 
 = 0.1.2 =
 
