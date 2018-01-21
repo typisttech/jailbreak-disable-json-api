@@ -6,9 +6,9 @@
  *
  * @package   TypistTech\JailbreakDRA
  *
- * @author    Typist Tech <jailbreak-disable-json-api@typist.tech@typist.tech>
- * @copyright 2017 Typist Tech
- * @license   GPL-2.0+
+ * @author    Typist Tech <jailbreak-disable-json-api@typist.tech>
+ * @copyright 2017-2018 Typist Tech
+ * @license   GPL-2.0-or-later
  *
  * @see       https://www.typist.tech/projects/jailbreak-disable-json-api
  * @see       https://wordpress.org/plugins/jailbreak-disable-json-api
@@ -21,7 +21,7 @@
  * Version:         0.1.1
  * Author:          Typist Tech
  * Author URI:      https://www.typist.tech/
- * License:         GPL-2.0+
+ * License:         GPL-2.0-or-later
  * License URI:     http://www.gnu.org/licenses/gpl-2.0.txt
  */
 

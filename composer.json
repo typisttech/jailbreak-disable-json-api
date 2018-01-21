@@ -6,7 +6,7 @@
         "wp"
     ],
     "homepage": "https://www.typist.tech/projects/jailbreak-disable-json-api",
-    "license": "GPL-2.0+",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Typist Tech",
